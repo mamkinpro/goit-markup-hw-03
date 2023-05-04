@@ -7,7 +7,18 @@
   --color-btn-filter: #4D5AE5;
   --bg-color-btn-filter :#F4F4FD;
 }
-
+h1,h2,h3,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,ol{
+  margin-top:0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img{
+  display:block;
+}
 body {
   font-family: "Roboto",sans-serif;
   color: var(--primary-text-color);
@@ -18,9 +29,6 @@ body {
 }
 .header-page{
   display:flex;
-  
-  
-
 }
 .logo {
     font-family: "Raleway",sans-serif;
@@ -141,6 +149,7 @@ margin-bottom: 48px;
 
 /* это не точно*/
   padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
 
@@ -193,17 +202,24 @@ margin-bottom: 48px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 .our-team-section{
   background: #F4F4FD;
   /*это не точно*/
 padding-top:120px;
 padding-bottom:120px;
+margin-top: 120px;
 
 
 }
 .crewman-card{
   background-color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  
+
 }
 .crewman-name{
     font-weight: 500;
@@ -211,12 +227,16 @@ padding-bottom:120px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+    
+    margin-bottom: 8px;
 }
 .crewman-profession{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    
+    margin-bottom: 32px;
 }
 .footer{
 
@@ -238,9 +258,7 @@ padding-bottom:100px ;
 display:block;
 width:264px;
 height:72px;
-
-
-
+margin-top: 16px;
 }
 .link {
   text-decoration: none;
@@ -279,11 +297,13 @@ height:72px;
   border: 1px solid transparent;
 }
 .product-title{
-  font-weight: 500;
+   font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+    
+    
 }
 .product-type{
     font-size: 16px;
@@ -373,7 +393,19 @@ ul{
   flex-basis: calc(100%/4-24px);
   margin-right: 24px;
 }
+.our-team-items-img{
+  margin-bottom:32px;
+}
 .section{
   padding-top: 120px;
     
+}
+.portolio-list{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+.portolio-list-item{
+
+  
 }
