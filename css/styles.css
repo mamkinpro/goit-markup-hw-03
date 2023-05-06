@@ -39,9 +39,6 @@ body {
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: var(--logo-text-color);
-      /**/
-
-
       margin-right:76px;
 }
 
@@ -56,7 +53,6 @@ body {
 .list{
   list-style: none;
  
-
 }
 .item{
 align-items:center;
@@ -71,7 +67,6 @@ align-items:center;
     padding-top: 24px;
     padding-bottom:24px;
 
-    /*это не точно*/ 
 
       display: block;
       
@@ -98,7 +93,6 @@ align-items:center;
   margin-left:332px;
 
 
-  /**/ 
 display: flex;
 align-items: center;
 
@@ -118,7 +112,7 @@ align-items: center;
   background-color: #2E2F42;
   
 
-/* это не точно*/
+
   height: 600px;
   text-align: center;
   padding: 188px 472px;
@@ -129,7 +123,6 @@ align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
     color:#FFFFFF;
-/* это не точно*/
 
 margin-bottom: 48px;
 
@@ -147,7 +140,7 @@ margin-bottom: 48px;
 
 
 
-/* это не точно*/
+
   padding: 16px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -171,7 +164,7 @@ margin-bottom: 48px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
-/*это не точно*/
+
     margin-bottom:8px;
 
  
@@ -189,7 +182,7 @@ margin-bottom: 48px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2E2F42;
-/*это не точно*/
+
  
  margin-bottom: 72px; 
 
@@ -384,12 +377,16 @@ ul{
 }
 .advantages-items{
   display: flex;
- 
 }
+.advantages-items>.advantages-items{
+  flex-basis: calc(100%/4-24px);
+  margin-right: 24px;
+}
+/*
 .advantages-items>.advantages-items-list:not(:last-child) {
   
   margin-right: 24px;
-}
+}*/
 
 .our-works-items{
   display: flex;
