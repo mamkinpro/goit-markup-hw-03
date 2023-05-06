@@ -345,18 +345,7 @@ ul{
 .advantages-items{
   display: flex;
   gap:24px;
-
 }
-
-
-/*.advantages-items>.advantages-items-list{
-  flex-basis: calc(100%/4-24px);
-  margin-right: 24px;
-}
-*/
-
-
-
 .advantages-items-list{
   max-height:104px;
   width: calc((100%-72px)/4);
