@@ -137,17 +137,9 @@ margin-bottom: 48px;
     color: #FFFFFF;
     background-color:#4D5AE5;
 
-
-
-
-
   padding: 16px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
-
-
-
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -166,8 +158,6 @@ margin-bottom: 48px;
     color: var(--secondary-text-color);
 
     margin-bottom:8px;
-
- 
 }
 .advantages-text{
   font-size: 16px;
@@ -183,10 +173,7 @@ margin-bottom: 48px;
   text-transform: capitalize;
   color: #2E2F42;
 
- 
- margin-bottom: 72px; 
-
-
+ margin-bottom: 72px;
 }
 .our-team-title{
     font-size: 36px;
@@ -199,12 +186,10 @@ margin-bottom: 48px;
 }
 .our-team-section{
   background: #F4F4FD;
-  /*это не точно*/
+
 padding-top:120px;
 padding-bottom:120px;
 margin-top: 120px;
-
-
 }
 .crewman-card{
   background-color: #FFFFFF;
@@ -234,20 +219,16 @@ margin-top: 120px;
 .footer{
 
 background-color: var(--secondary-background-color);
-/*это не точно*/
 
 padding-top:100px ;
 padding-bottom:100px ;
-
-
-
 }
 .p-footer{
   font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-/*это не точно*/
+
 display:block;
 width:264px;
 height:72px;
@@ -273,8 +254,7 @@ margin-top: 16px;
     cursor:pointer;
     color: var(--color-btn-filter);
     background-color: var(--bg-color-btn-filter);
-    /*это не точно*/
-    
+   
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
@@ -286,7 +266,7 @@ margin-top: 16px;
 .button-filter:focus {
   color: #FFFFFF;
   background: #404bbf;
-  /*это не точно*/
+  
   border: 1px solid transparent;
 }
 .product-item{
@@ -304,9 +284,6 @@ margin-top: 16px;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     
-    
-    
-    
 }
 .product-type{
     font-size: 16px;
@@ -316,32 +293,21 @@ margin-top: 16px;
     margin-top:8px;
     
 }
-/*задание 3!!!*/
-
 
 .container{
- 
    width: 1158px;
    padding-left: 15px;
    padding-right: 15px;
    margin-left: auto;
    margin-right: auto;
-   /* это не точно*/
-
    
   }
   .container-btn-filter{
-  
-    
-
     margin-right: 427px;
     margin-left: 427px;
     margin-top: 96px;
     margin-bottom: 72px;
-    
   }
-
-
 
 .list>.item:not(:last-child){
   margin-right:40px;
@@ -361,11 +327,7 @@ margin-top: 16px;
 }
 .nav-list{
   display: flex;
-  
-
 } 
-
-
 
 ul{
   padding-left: 0;
@@ -378,15 +340,15 @@ ul{
 .advantages-items{
   display: flex;
 }
-.advantages-items>.advantages-items{
+.advantages-items>.advantages-items-list{
   flex-basis: calc(100%/4-24px);
   margin-right: 24px;
 }
-/*
+
 .advantages-items>.advantages-items-list:not(:last-child) {
   
   margin-right: 24px;
-}*/
+}
 
 .our-works-items{
   display: flex;
