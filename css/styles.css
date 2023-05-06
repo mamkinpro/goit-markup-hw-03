@@ -110,21 +110,22 @@ align-items: center;
 .hero{
  
   background-color: #2E2F42;
-  
-
-
-  height: 600px;
-  text-align: center;
-  padding: 188px 472px;
+  padding-top:188px;
+  padding-bottom:188px;
+}
+.container-hero{
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-title{
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color:#FFFFFF;
-
-margin-bottom: 48px;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+     margin-right: auto;
 
 
 }
@@ -135,9 +136,13 @@ margin-bottom: 48px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color:#4D5AE5;
-
-  padding: 16px 32px;
+    background-color:var(--color-btn-filter);
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    min-width: 169px;
+    height: 56px;
+    border:none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -206,7 +211,8 @@ margin-top: 120px;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     
-    margin-bottom: 8px;
+    
+    
 }
 .crewman-profession{
     font-size: 16px;
@@ -218,13 +224,13 @@ margin-top: 120px;
 }
 .footer{
 
-background-color: var(--secondary-background-color);
+    background-color: var(--secondary-background-color);
 
-padding-top:100px ;
-padding-bottom:100px ;
+    padding-top:100px ;
+    padding-bottom:100px ;
 }
 .p-footer{
-  font-size: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
@@ -232,7 +238,10 @@ padding-bottom:100px ;
 display:block;
 width:264px;
 height:72px;
-margin-top: 16px;
+}
+.logo-footer{
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .link {
   text-decoration: none;
@@ -270,28 +279,24 @@ margin-top: 16px;
   border: 1px solid transparent;
 }
 .product-item{
-  padding-top: 32px;
-  padding-left:16px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
   border-left:1px solid #E7E9FC;
   border-right:1px solid #E7E9FC;
   border-bottom:1px solid #E7E9FC ;
 }
 .product-title{
-   font-weight: 500;
+    margin-bottom: 8px;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
-    
 }
 .product-type{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    margin-top:8px;
-    
 }
 
 .container{
@@ -339,15 +344,23 @@ ul{
 }
 .advantages-items{
   display: flex;
+  gap:24px;
+
 }
-.advantages-items>.advantages-items-list{
+
+
+/*.advantages-items>.advantages-items-list{
   flex-basis: calc(100%/4-24px);
   margin-right: 24px;
 }
+*/
 
-.advantages-items>.advantages-items-list:not(:last-child) {
+
+
+.advantages-items-list{
+  max-height:104px;
+  width: calc((100%-72px)/4);
   
-  margin-right: 24px;
 }
 
 .our-works-items{
